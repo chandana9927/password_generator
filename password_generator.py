@@ -4,10 +4,11 @@ import sys
 
 SIZE = 10
 argv_len = len(sys.argv)
+
 if argv_len > 2:
     raise ValueError("Please provide just the desired password length as argument.")
 
-if len(sys.argv) == 2:
+if argv_len == 2:
     try:
         SIZE = int(sys.argv[1])  
     except ValueError:
