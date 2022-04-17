@@ -1,6 +1,5 @@
-from multiprocessing.sharedctypes import Value
-import string
 import random
+import string
 import sys
 
 SIZE = 10
